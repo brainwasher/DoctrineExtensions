@@ -44,6 +44,7 @@ class Annotation extends AbstractAnnotationDriver
             $config['appendNumber'] = $annot->appendNumber;
             $config['path'] = $annot->path;
             $config['pathMethod'] = $annot->pathMethod;
+			$config['pathSaveRelative'] = $annot->pathSaveRelative;
             $config['fileMimeTypeField'] = false;
             $config['filePathField'] = false;
             $config['fileSizeField'] = false;
